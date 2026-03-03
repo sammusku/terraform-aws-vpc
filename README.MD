@@ -135,5 +135,5 @@ This ensures consistent and production-friendly resource naming.
 --
 # **Architecture**
 <p align="center">
-  <img src="images/vpc-module.jpg" width="900">
+  <img alt="vpc-module-architecture" src="vpc-module.jpg" width="900">
 </p>
