@@ -14,6 +14,6 @@ output "private_subnet_ids" {
 output "database_subnet_ids" {
     value = aws_subnet.database[*].id
 }
-output "aws_db_subnet_group_ids" {
-    value = aws_db_subnet_group.roboshop[*].id
+output "database_subnet_group_name" {
+    value = aws_db_subnet_group.roboshop.name
 }
